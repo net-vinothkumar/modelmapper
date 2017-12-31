@@ -1,8 +1,8 @@
-# modelmapper
+# Modelmapper Demo
 
 Sample program to learn the basic usage of ModelMapper.
 
-How to add the ModelMapper to your project ?
+## How to add the ModelMapper to your project ?
 
 If you’re a Maven user just add the modelmapper library as a dependency:
 
@@ -27,7 +27,7 @@ ModelMapper modelMapper = new ModelMapper();
 UserDTO userDTO = modelMapper.map(user, UserDTO.class);
 ```
 
-How It Works ?
+# How It Works ?
 
 When the map method is called, the source and destination types are analyzed to determine which properties implicitly match according to a matching strategy and other configuration.
 
