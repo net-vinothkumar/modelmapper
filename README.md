@@ -1,4 +1,3 @@
-
 # modelmapper
 
 Sample program to learn the basic usage of ModelMapper.
@@ -16,6 +15,8 @@ If you’re a Maven user just add the modelmapper library as a dependency:
 ```
 
 Let’s try mapping some objects. Consider the following source and destination object models:
+
+![img](https://user-images.githubusercontent.com/30971809/34463513-291b795e-ee84-11e7-9630-e252363a80c9.png)
 
 User to UserDTO
 
